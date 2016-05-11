@@ -74,5 +74,7 @@ Vagrant.configure(2) do |config|
       sudo -H apt-get install -y python3-pip
       sudo -H pip3 install pip --upgrade
       sudo -H pip3 install django
+      alias run='python3.4 manage.py runserver 0.0.0.0:8000'
+      alias project='cd ../..; cd vagrant/Tutorial/mysite'
   SHELL
 end
