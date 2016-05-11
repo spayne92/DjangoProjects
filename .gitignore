@@ -4,4 +4,3 @@
 # ignores files associated with python compilation in django
 *.pyc
 *.pyo
-*.sqlite3
