@@ -81,6 +81,6 @@ Vagrant.configure(2) do |config|
       # creating quick runserver alias command
       echo "alias runserver='python3.4 manage.py runserver 0.0.0.0:8000'" >> /home/vagrant/.bashrc
       # alias for python3.4, because I'm sick of typing it
-      echo "alias python=python3.4" >> /home/vagrant/.bashrc
+      echo "alias python='python3.4'" >> /home/vagrant/.bashrc
   SHELL
 end
