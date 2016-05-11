@@ -42,7 +42,7 @@ Vagrant.configure(2) do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  # Provider-specific configuration so you can fine-tune various
+  # Provider-specific configuration so you can fine-tune variousubun
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
@@ -77,7 +77,7 @@ Vagrant.configure(2) do |config|
       # defining default directory upon vagrant ssh
       echo "cd; cd ../../vagrant" >> /home/vagrant/.bashrc
       # creating quick alias command to return to vagrant home directory
-      echo "alias home='cd; cd ../../vagrant'"
+      echo "alias home='cd; cd ../../vagrant'" >> /home/vagrant/.bashrc
       # creating quick runserver alias command
       echo "alias runserver='python3.4 manage.py runserver 0.0.0.0:8000'" >> /home/vagrant/.bashrc
   SHELL
