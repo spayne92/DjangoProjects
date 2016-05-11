@@ -1,3 +1,6 @@
+# ignores files associated with 'vagrant up'
 .vagrant/
+
+# ignores files associated with python compilation in django
 *.pyc
 *.pyo
